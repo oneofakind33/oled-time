@@ -3,7 +3,7 @@
 
 #include <stdint.h>
 
-extern const uint8_t Font6x10[][10]; //to tell the compiler, not to load the fucntion in memory but just know that it exists.
+extern const uint8_t Font6x10[][10]; //extern used to tell the compiler, not to load the fucntion in memory but just know that it exists.
 extern const uint8_t FontThin6x10[][10];
 extern const uint8_t FontWide6x10[][10];
 extern const uint8_t FontItalic6x10[][10];
